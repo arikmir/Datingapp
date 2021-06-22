@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arikm\\Datingapp\\API\\API.csproj": {}
+    "C:\\Users\\arikm\\Datingapp\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arikm\\Datingapp\\API\\API.csproj": {
+    "C:\\Users\\arikm\\Datingapp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arikm\\Datingapp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\arikm\\Datingapp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\arikm\\Datingapp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\arikm\\Datingapp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\arikm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arikm\\Datingapp\\API\\obj\\",
+        "outputPath": "C:\\Users\\arikm\\Datingapp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arikm\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
