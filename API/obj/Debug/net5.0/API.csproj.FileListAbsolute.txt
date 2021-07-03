@@ -62,3 +62,6 @@ C:\Users\arikm\Datingapp\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dl
 C:\Users\arikm\Datingapp\API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\arikm\Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\arikm\Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\arikm\Datingapp\api\bin\Debug\net5.0\Data\UserSeedData.json
+C:\Users\arikm\Datingapp\api\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\arikm\Datingapp\api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
