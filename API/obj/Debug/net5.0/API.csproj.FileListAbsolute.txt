@@ -11,7 +11,6 @@ C:\Users\arikm\Datingapp\API\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\arikm\Datingapp\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\arikm\Datingapp\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\arikm\Datingapp\API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\arikm\Datingapp\API\obj\Debug\net5.0\API.csprojAssemblyReference.cache
 C:\Users\arikm\Datingapp\API\obj\Debug\net5.0\API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\arikm\Datingapp\API\obj\Debug\net5.0\API.AssemblyInfoInputs.cache
 C:\Users\arikm\Datingapp\API\obj\Debug\net5.0\API.AssemblyInfo.cs
@@ -65,3 +64,4 @@ C:\Users\arikm\Datingapp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.
 C:\Users\arikm\Datingapp\api\bin\Debug\net5.0\Data\UserSeedData.json
 C:\Users\arikm\Datingapp\api\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\arikm\Datingapp\api\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\arikm\Datingapp\api\obj\Debug\net5.0\API.csproj.AssemblyReference.cache
