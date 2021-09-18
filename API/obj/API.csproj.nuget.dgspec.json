@@ -1,26 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arik\\Datingapp\\API\\API.csproj": {}
+    "C:\\Users\\arikm\\Datingapp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arik\\Datingapp\\API\\API.csproj": {
+    "C:\\Users\\arikm\\Datingapp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arik\\Datingapp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\arikm\\Datingapp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Arik\\Datingapp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Arik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arik\\Datingapp\\API\\obj\\",
+        "projectPath": "C:\\Users\\arikm\\Datingapp\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\arikm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arikm\\Datingapp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Arik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\arikm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -104,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
