@@ -2033,11 +2033,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arikm\\Datingapp\\api\\API.csproj",
+      "projectUniqueName": "C:\\Users\\arikm\\Datingapp\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\arikm\\Datingapp\\api\\API.csproj",
+      "projectPath": "C:\\Users\\arikm\\Datingapp\\API\\API.csproj",
       "packagesPath": "C:\\Users\\arikm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arikm\\Datingapp\\api\\obj\\",
+      "outputPath": "C:\\Users\\arikm\\Datingapp\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
