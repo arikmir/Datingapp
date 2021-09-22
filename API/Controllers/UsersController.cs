@@ -26,7 +26,6 @@ namespace API.Controllers
             _mapper = mapper;
             _userRepository = userRepository;
             _photoService = photoService;
-
         }
 
         //GET- api/users/
