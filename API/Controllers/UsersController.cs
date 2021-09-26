@@ -38,7 +38,7 @@ namespace API.Controllers
             return Ok(users);
         }
         //GET- api/users/getuser/
-        [HttpGet("{username}", Name ="GetUser")]
+        [HttpGet("{username}", Name = "GetUser")]
         public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
             return await _userRepository.GetMemberAsync(username);
@@ -67,25 +67,26 @@ namespace API.Controllers
 
             var result = await _photoService.AddPhotoAsync(file);
 
-            if(result.Error != null)
+            if (result.Error != null)
                 return BadRequest(result.Error.Message);
-            
-            var photo = new Photo{
+
+            var photo = new Photo
+            {
                 Url = result.SecureUrl.AbsoluteUri,
                 PublicId = result.PublicId
             };
 
-            if(user.Photos.Count == 0)
+            if (user.Photos.Count == 0)
                 photo.IsMain = true;
-            
 
-            user.Photos.Add(photo); 
 
-            if(await _userRepository.SaveAllAsync())
+            user.Photos.Add(photo);
+
+            if (await _userRepository.SaveAllAsync())
             {
-                return CreatedAtRoute("GetUser",new {userName = user.UserName},_mapper.Map<PhotoDto>(photo));
+                return CreatedAtRoute("GetUser", new { userName = user.UserName }, _mapper.Map<PhotoDto>(photo));
             }
-            
+
             return BadRequest("Problem adding  photo");
 
         }
@@ -96,18 +97,20 @@ namespace API.Controllers
 
             var photo = user.Photos.FirstOrDefault(x => x.Id == photoId);
 
-            if(photo.IsMain){
+            if (photo.IsMain)
+            {
                 return BadRequest("This is already your main photo");
             }
 
-            var currentMain = user.Photos.FirstOrDefault(x=> x.IsMain);
-            if(currentMain != null){
+            var currentMain = user.Photos.FirstOrDefault(x => x.IsMain);
+            if (currentMain != null)
+            {
                 currentMain.IsMain = false;
             }
-            
+
             photo.IsMain = true;
 
-            if(await _userRepository.SaveAllAsync())
+            if (await _userRepository.SaveAllAsync())
             {
                 return NoContent();
             }
@@ -122,24 +125,29 @@ namespace API.Controllers
 
             var photo = user.Photos.FirstOrDefault(x => x.Id == photoId);
 
-            if(photo == null){
+            if (photo == null)
+            {
                 return NotFound();
             }
 
-            if(photo.IsMain){
+            if (photo.IsMain)
+            {
                 return BadRequest("You can't delete Profile picture");
             }
 
-            if(photo.PublicId != null){
-               var result = await _photoService.DeletePhotoAsync(photo.PublicId);
-               if(result.Error != null){
-                   return BadRequest(result.Error.Message);
-               }
+            if (photo.PublicId != null)
+            {
+                var result = await _photoService.DeletePhotoAsync(photo.PublicId);
+                if (result.Error != null)
+                {
+                    return BadRequest(result.Error.Message);
+                }
             }
 
             user.Photos.Remove(photo);
 
-            if(await _userRepository.SaveAllAsync()){
+            if (await _userRepository.SaveAllAsync())
+            {
                 return Ok();
             }
 
