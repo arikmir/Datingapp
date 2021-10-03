@@ -32,7 +32,7 @@ namespace API.Controllers
         //GET- api/users/
         [HttpGet]
 
-        public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers([FromQuery]UserParams userParams)
+        public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers([FromQuery] UserParams userParams)
         {
             var users = await _userRepository.GetMembersAsync(userParams);
 

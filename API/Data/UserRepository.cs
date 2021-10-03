@@ -31,7 +31,7 @@ namespace API.Data
 
         public async Task<PagedList<MemberDto>> GetMembersAsync(UserParams userParams)
         {
-            var query =  _context.Users
+            var query = _context.Users
             .ProjectTo<MemberDto>(_mapper.ConfigurationProvider)
             .AsNoTracking();
 
